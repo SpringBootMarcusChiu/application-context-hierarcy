@@ -12,4 +12,4 @@
   - http://localhost:8082/ctx2/controller
   
 ## Confluence Article
-- [http://confluence.marcuschiu.com/article]()
+- [http://confluence.marcuschiu.com/article](http://confluence.marcuschiu.com/display/NOT/Java+-+Spring+-+Application+Context+Hierarchy)
