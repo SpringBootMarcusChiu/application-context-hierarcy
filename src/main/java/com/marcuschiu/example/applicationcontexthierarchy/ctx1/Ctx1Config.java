@@ -12,10 +12,8 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:ctx1.properties")
 @EnableAutoConfiguration
 public class Ctx1Config {
-
     @Bean
     public IHomeService homeService() {
         return new Ctx1HomeService();
     }
-
 }
