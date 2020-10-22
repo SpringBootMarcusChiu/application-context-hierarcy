@@ -14,5 +14,8 @@ public class Application {
 				.child(Ctx1Config.class).web(WebApplicationType.SERVLET)
 				.sibling(Ctx2Config.class).web(WebApplicationType.SERVLET)
 				.run(args);
+
+		System.out.println(appContext.getDisplayName());				// org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@702c436b
+		System.out.println(appContext.getParent().getDisplayName());	// org.springframework.context.annotation.AnnotationConfigApplicationContext@57a3af25
 	}
 }
